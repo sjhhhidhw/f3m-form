@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book a Service - F3M</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>F3M Airconditioning Trading</h1>
+    <p>Reliable Aircon Services in Caingin, Morong, Rizal</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="booking.html">Book Now</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <h2>Sign up to book a service</h2>
+      <form>
+        <label for="name">NAME:</label>
+        <input type="text" id="name" required />
+
+        <label for="contact">CONTACT #:</label>
+        <input type="tel" id="contact" required />
+
+        <label for="services">SERVICE NEEDED:</label>
+        <select id="services" required>
+          <option value="" disabled selected>Choose Service</option> <!-- Default option -->
+          <option value="cleaning">Cleaning and Maintenance</option>
+          <option value="installation">Installation and Relocation</option>
+          <option value="repair">Repair Works and Parts Replacement</option>
+        </select>
+
+        <label for="message">Additional Details and Concern:</label>
+        <textarea id="message"></textarea>
+
+        <button type="submit">SUBMIT</button>
+      </form>
+    </section>
+ <table>
+    <footer>
+        <p>&copy; 2025 F3M Airconditioning Trading. All rights reserved.</p>
+      </footer>
+ </table>
+</body>
+</html>
